@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy-fastapi-auth" # Уникальное имя на PyPI (проверьте свобода ли название!)
+version = "0.1.0"
+authors = [
+  { name="Almaz", email="almaztx@gmail.com" },
+]
+description = "Ready-to-use and customizable Authentication management for FastAPI"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Framework :: FastAPI",
+    "Topic :: Internet :: WWW/HTTP :: Session",
+    "Topic :: Security",
+]
+dependencies = [
+    "fastapi>=0.100.0",
+    "sqlalchemy[asyncio]>=2.0.0",
+    "argon2-cffi>=23.1.0",
+    "pyjwt>=2.8.0",
+    "pydantic[email]>=2.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/arayuly/easy-fastapi-auth"
+"Bug Tracker" = "https://github.com/arayuly/easy-fastapi-auth/issues"
