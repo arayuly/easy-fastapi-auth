@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "easy-fastapi-auth" # Уникальное имя на PyPI (проверьте свобода ли название!)
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Almaz", email="almaztx@gmail.com" },
 ]
